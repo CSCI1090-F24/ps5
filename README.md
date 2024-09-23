@@ -1,7 +1,5 @@
 # Problem Set 5
-You should feel comfortable with GitHub by now. If you're not, come to office hours with me or the TAs.
-
-If you think you see an error or typo, let me know! I will update [this version of the repo](https://github.com/CSCI1090-S24/ps5) with any corrections you suggest.
+If you think you see an error or typo, let me know! I will announce any corrections on Canvas.
 
 The deliverables for this problem set are the following:
 
@@ -14,7 +12,7 @@ The deliverables for this problem set are the following:
 * **NEW** Insert a blank line before each comment. See my sample code for examples.
 * **NEW** Insert line breaks in comments to make them readable without horizontal scrolling. See my sample code for examples.
 
-**Remember** Now at the top of every file, you will include your honor pledge. The first four lines (comments) of every Python file should be this information. You will lose one point if you don't include these four lines.
+**Remember** Now at the top of every file, you will include your honor pledge. You will lose one point if you don't include these four comments.
 
 * The name of the file.
 * Your name.
@@ -53,7 +51,7 @@ While the number of days so far is less than 10:
   - (5) the average chance of rain over the 10 days. 
 * Print out these statistics to the user, using the wording shown in the example below.
 
-Your output will look something like this, though the numbers will be different.
+Your output will look something like this, though the numbers will be different even if you make the same choices because numbers are being chosen randomly throughout.
 
 ```
 Welcome to the lemonade stand!
@@ -142,7 +140,7 @@ The average chance of rain was 0.60.
 
 ---
 
-## Deadline: Monday, February 19, 2024, at 11:59pm EST
+## Deadline: Tuesday, October 1, 2024, at 11:59pm EST
 
 ## Deliverables
 
