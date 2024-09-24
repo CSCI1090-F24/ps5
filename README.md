@@ -5,7 +5,7 @@ The deliverables for this problem set are the following:
 
 * `lemonade.py`
 
-**Remember** I now expect you to write comments in your code! One point will be deducted if you do not provide comments explaining your code. Here's what I would like commented this time:
+**Remember** I now expect you to write comments in your code! One point will be deducted if you do not provide comments explaining your code. I will deduct a half-point for comments that don't generally conform to the following expectatons. Here's what I would like commented this time:
 
 * Before every function, describe what it does and what its arguments are. Exception: you do not need to explain what `main()` is for.
 * Before every variable, explain what value it is holding. Exception: variables that appear after the keyword `for`.
@@ -40,7 +40,7 @@ While the number of days so far is less than 10:
   * Get another random number between 0 and 1.
       - If it's less than the `chance of rain`, it rained. No lemonade was sold, so deduct 50 cents for each glass made from the user's total money.
       - If it's more than the `chance of rain`, it was sunny. All the lemonade was sold, so add 50 cents for each glass ($1 sale price minus 50 cents cost to make the lemonade) to the user's total money.
-  * Enter the stats for the day as a list into the list of lists called `stats`: the number of glasses they made, the number of glasses they sold, the chance of rain that day, and whether or not it was sunny.
+  * Put all your data for that day (i.e., he number of glasses they made, the number of glasses they sold, the chance of rain that day, and whether or not it was sunny) in a list. Then append that list to the list of lists called `stats`.
 
 **Chunk 2:** Calculate and report statistics of the game
 * Using a for loop over the `stats` list of lists, calculate
@@ -50,6 +50,7 @@ While the number of days so far is less than 10:
   - (4) the number of sunny days; and
   - (5) the average chance of rain over the 10 days. 
 * Print out these statistics to the user, using the wording shown in the example below.
+* Hint: you will want to initialize variables outside the for loop, and then add to those variables inside the for loop. In some cases (e.g., number of glasses), the variable will store the answer at the end of the for loop. In other cases, you will need to do an extra calculation to get the answer (e.g., averages) after the foor loop.
 
 Your output will look something like this, though the numbers will be different even if you make the same choices because numbers are being chosen randomly throughout.
 
